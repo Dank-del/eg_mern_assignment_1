@@ -22,7 +22,7 @@ router.get('/all', async (req, res) => {
 
 router.get('/:email', async (req, res) => {
     const user = await User.findOne({ email: req.params.email });
-    if (!user) return res.status(404).json({message: 'The user with the given username was not found.'});
+    if (!user) return res.status(404).json({message: 'The user with the given email was not found.'});
     res.send(user);
 })
 
