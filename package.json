@@ -1,0 +1,16 @@
+{
+  "name": "assignment_1",
+  "version": "1.0.0",
+  "description": "assigntment code",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Sayan Biswas <dankguy6146@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joi": "^13.7.0",
+    "mongoose": "^6.5.3"
+  }
+}
